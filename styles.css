@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    padding-right: 50px;
+}
+.nav-link{
+    color: black;
+    font-weight: 600;
+}
+.navbar-brand{
+    color: black;
+    font-weight: 700;
+}
+.logo{
+    width:150px;
+    height:100px;
+    padding:0;
+    margin: 0;
+}
+.main {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/Staircase.jpg)no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card{
+    border: none;
+}
+.main select{
+    height: 40px;
+    width: 90%;
+    outline: none;
+    padding:0 20px;
+}
+.main span{
+    color: rgb(104,89,89);
+    font-weight:600;
+}
+.main .btn1{
+    background-color: coral;
+    color:white;
+    outline:none;
+    border:none;
+    width: 90%;
+    height :40px;
+    margin-top:32px;
+} 
+.btn1:hover{
+    background-color: tomato;
+    transition: 0.5s ;
+}
+
+.land{
+    background: white;
+}
+.btn2{
+    background-color: black;
+    color:white;
+    height: 45px;
+    width: 200px ;
+    border:none;     
+}
+.rent{
+    background: whitesmoke; 
+}
+.btnc{
+    height: 45px;
+    width: 150px;
+    background-color: rgb(250, 133, 79);
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px; 
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    padding: 10px;
+    font-weight: 500;   
+}
+.rent h1{
+    font-weight: 700;
+}
+.home{
+    background: whitesmoke; 
+}
+.home h1{
+    font-weight: 700;
+}
+.btnf{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+    display: inline-block;
+}
+.villa1{
+    height:600px;
+    width: 700px;
+}
+footer{
+    background-color: black;                                      
+    color:white
+}
+.fab{
+    font-size: 25px;
+    color: gray;
+}
+.fab:hover{
+    color: white;
+    transition: 0.5s;
+}
+.copyright{
+    margin-left: 250px;
+}
